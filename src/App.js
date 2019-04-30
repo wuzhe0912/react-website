@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NameCard from './components/NameCard';
 
+const tags = ['中立友善', '邪惡混亂']
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NameCard name="Heroku" number={12345} isHuman tags={tags} />
     </div>
   );
 }
