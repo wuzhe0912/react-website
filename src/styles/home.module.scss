@@ -1,0 +1,49 @@
+.home__wrap {
+  padding: 16px;
+}
+
+.brief {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  h2 {
+    margin-top: 32px;
+  }
+
+  ul {
+    margin-top: 24px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+.brief__list {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+
+  li {
+    padding: 8px;
+    background: rgba(87, 199, 255, 0.1);
+    border-radius: 12px;
+    margin: 0 8px;
+  }
+}
+
+.about {
+  margin-top: 60px;
+}
+
+.about__title {
+  h3 {
+    font-size: 32px;
+  }
+  p {
+    margin-top: 12px;
+  }
+}
