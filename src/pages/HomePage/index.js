@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../../styles/app.module.scss';
 import AboutList from '../../components/AboutList';
+import MockData from '../works.json';
 
 export default () => {
   return (
@@ -22,12 +23,12 @@ export default () => {
       {/* 列表 */}
       <section className={ styles.about }>
         <div className={ styles.about__title }>
-          <h3>A section of About me</h3>
+          <h3>A section of About me(Mock)</h3>
           <p>You can find more in the about overview</p>
         </div>
       </section>
 
-      <AboutList />
+      <AboutList dataSource = { MockData.data } />
     </div>
   )
 }
