@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false, // 停止強制聲明型別，允許 JS & TS 混合編寫
+    "target": "es5", // 打包編譯後，目標 JavaScript 版本
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, // 允許混合編譯 JS
+    "skipLibCheck": true,
+    "esModuleInterop": true, // 允許使用 commonJS 的方式 import
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
